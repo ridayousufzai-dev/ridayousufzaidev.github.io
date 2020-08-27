@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="skills.html">Skills</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<header>
+		<h1>Contact Us</h1>
+
+		<p>Please write to us your thoughts about our website and our location to reach us.</p>
+	</header>
+
+	<section>
+		<article>
+		<form>
+			<fieldset>
+				<legend>Your contact information</legend>	
+				<label for="name">Your name: </label>
+					<input type="text" name="name" id="name">
+				<label for="email">Your email: </label>
+					<input type="email" name="email" id="email">
+				<label for="phone">Your phone number:</label>
+					<input type="tel" name="phone" id="phone">
+			</fieldset>
+
+
+
+			<fieldset>
+				<legend>Project Information</legend>	
+				<label for="deadline">Your deadline: </label>
+					<input type="date" name="deadline" id="deadline">
+				<label for="budget">Your budget: </label>
+					<input type="number" name="budget" id="budget" min="500">
+				<p>What kind of website you would like?</p>
+					<label><input type="radio" name="project" value="basic">Basic Corporate Website</label>
+					<label><input type="radio" name="project" value="custom">Customized Corporate Website</label>
+					<label><input type="radio" name="project" value="ecommerce">Online Store Website</label>
+
+				<label for="webtype">What type of website you would like in terms of end-users?</label>
+				<select id="webtype" name="webtype">
+					<option>Select one...</option>
+					<option value="b2b">Business to Business (B2B)</option>
+					<option value="b2c">Business to Customer (B2C)</option>
+				</select>
+
+				<label for="info">Additional Information</label>
+				<textarea id="info" name="info" placeholder="Anything else you want us to know? Please write it here."></textarea>
+
+				<label>
+					<input type="checkbox" name="quote" value="quote" checked>Send me Quotation for this project.
+				</label>
+			</fieldset>
+
+			<button type="submit">Submit</button>
+
+		</form>
+		</article>
+	
+
+		 <aside> 
+
+		 	<div class="aside-content">
+		 	<fieldset>		 	
+				<legend>Our location</legend>
+				<address>Dahrat Laban, Riyadh</address>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116057.67444563317!2d46.46053499570107!3d24.63049703167711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1f3bcee67447%3A0xbafd2adcc1490d41!2sDhahrat%20Laban%2C%20Riyadh!5e0!3m2!1sen!2ssa!4v1598422468025!5m2!1sen!2ssa" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</fieldset>
+			</div>
+
+		</aside>
+
+	</section>
+
+	<footer>
+		<p>This is the footer of the website. &#169; Copyright 2020</p>
+	</footer>
+ 
+</body>
+</html>
